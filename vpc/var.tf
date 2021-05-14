@@ -11,13 +11,12 @@ variable "backend" {
   default = "terraform-production-engineering"
 }
 
-
 variable "az_count" {
   default = 2
 }
 
 variable "tags" {
-  type    = "map"
+  //type    = "map"
   #default = {}
 }
 
