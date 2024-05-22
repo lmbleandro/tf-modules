@@ -1,5 +1,6 @@
 output "vpc" {
   value = aws_vpc.this.id
+  description = "name of the docker container"
 }
 
 output "private_subnets" {
