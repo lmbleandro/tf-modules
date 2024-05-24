@@ -4,10 +4,7 @@ variable "region" {
   default     = "us-east-1"
 }
 
-variable "profile" {
-  description = "Nome Profile"
-  type        = ""
-}
+
 variable "cluster_name" {
   description = "Nome Cluster"
   type        = string
